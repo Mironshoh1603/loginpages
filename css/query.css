@@ -1,0 +1,58 @@
+@media (max-width: 75em) {
+  .container {
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+  }
+}
+@media (max-width: 63em) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo__container,
+  .form_container {
+    width: 80%;
+  }
+  .photo__container {
+    align-items: center;
+  }
+  .photo_text {
+    align-self: flex-start;
+  }
+  .form__back form {
+    width: 80%;
+  }
+}
+@media (max-width: 42em) {
+  .photo1 img {
+    width: 100%;
+  }
+
+  .photo__container {
+    align-items: center;
+    justify-content: center;
+  }
+  .photo_text {
+    align-self: flex-start;
+  }
+  .form__back {
+    justify-content: stretch;
+    width: 100%;
+  }
+  .form__back form {
+    width: 100%;
+  }
+  .photo__container,
+  .form_container {
+    width: 100%;
+  }
+}
+@media (max-width: 35em) {
+  .form__back {
+    justify-content: center;
+  }
+  .form__back form {
+    width: 100%;
+  }
+}
