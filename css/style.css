@@ -1,0 +1,97 @@
+.photo__container {
+  padding: 3rem 2rem 5rem;
+  width: 50%;
+  background-color: #2e5bff;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
+.photo1 {
+  justify-content: center;
+}
+.photo_text {
+  color: white;
+  font-weight: 400;
+  opacity: 0.8;
+  letter-spacing: 0.2rem;
+}
+.form_container {
+  width: 50%;
+  padding: 2rem;
+  background-color: white;
+}
+.cancel {
+  display: flex;
+  justify-content: flex-end;
+}
+.form__back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: flex-start;
+  width: 50%;
+  margin-top: 5rem;
+}
+form .sign {
+  font-weight: 500;
+}
+.info__people {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  gap: 0.3rem;
+}
+.info__people p {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+.info {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.2rem solid #f0f0f0;
+  width: 48%;
+}
+.form_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0rem;
+  width: 100%;
+}
+.form_item label {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+.form_item input {
+  border-radius: 0.5rem;
+  border-style: none;
+  background-color: #f4f6fc;
+  padding: 1rem 0;
+  width: 100%;
+}
+form .submit {
+  justify-self: stretch;
+  width: 100%;
+  padding: 1rem 0;
+  border-style: none;
+  background-color: #2e5bff;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.6rem;
+}
+p.already {
+  align-self: center;
+  color: #c9bebe;
+}
+.already span {
+  color: #2e5bff;
+}
+.info__people .info:hover {
+  border-color: #2e5bff;
+}

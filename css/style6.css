@@ -1,0 +1,18 @@
+.photo__container {
+  position: relative;
+
+  padding: 0rem;
+}
+
+.text_medis {
+  position: absolute;
+  color: blue;
+  top: 3rem;
+  font-weight: 400;
+  left: 3rem;
+}
+.link_cancel {
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+}
