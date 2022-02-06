@@ -472,7 +472,7 @@ strong {
 .under_back7 {
   width: 50%;
   margin-top: 50px;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 130px;
 }
 .under_back7 label {
@@ -511,9 +511,14 @@ strong {
   height: 35px;
   border-radius: 5px;
   border: 0;
-  background-color: #a99a77;
+  background-color: #2E384D;
   color: white;
   margin-top: 20px;
+}
+.under_back7_p {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.801);
 }
 /* Index 7 page finished */
 /* Index 8 page started */
