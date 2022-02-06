@@ -286,3 +286,251 @@ body {
 strong {
   font-weight: 500;
 }
+
+/* Azizullo's part started */
+/* Index page 3 started */
+.back3 {
+  background-image: url(/img/Card\ Base1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 30px 60px;
+}
+.back3_logo {
+  display: flex;
+  justify-content: space-between;
+}
+.back3_logo p,
+.back3_logo i {
+  font-size: 2rem;
+  color: black;
+}
+.back3_logo i:hover,
+.back3_logo p:hover {
+  transform: scale(1.5);
+  text-shadow: 0px 0px 2px black;
+}
+.under_back3 {
+  margin-left: 63%;
+  margin-top: 30px;
+}
+.under_back3_p {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.801);
+}
+.pi_btn {
+  margin: 20px 0;
+  width: 130px;
+  height: 35px;
+  font-size: 1.6rem;
+  border: 0;
+  border-bottom: 2px #a99a77 solid;
+  text-align: left;
+}
+.ad_btn {
+  border-bottom: 0;
+  margin: 20px 0;
+  width: 130px;
+  height: 35px;
+  font-size: 1.6rem;
+  border: 0;
+  text-align: left;
+}
+.under_back3 label {
+  font-size: 1.6rem;
+  color: gray;
+}
+.under_back3 input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 290px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 10px;
+}
+.under_back3 input::placeholder {
+  color: black;
+}
+#gender {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 290px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 10px;
+}
+.under_back3 select {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 88px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.con_btn {
+  width: 290px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #a99a77;
+  color: white;
+}
+.already {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+.already span {
+  color: #a99a77;
+}
+/* Index 3 page finished */
+
+/* Index 4 page started */
+.back4 {
+  background-image: url(/img/Card\ Base3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 30px 60px;
+}
+.back4_logo {
+  display: flex;
+  justify-content: space-between;
+}
+.back4_logo p,
+.back4_logo i {
+  font-size: 2rem;
+  color: white;
+}
+.back4_logo i:hover,
+.back4_logo p:hover {
+  transform: scale(1.5);
+  text-shadow: 0px 0px 2px black;
+}
+.pi_btn4 {
+  margin: 20px 0;
+  width: 130px;
+  height: 35px;
+  font-size: 1.6rem;
+  border: 0;
+  text-align: left;
+  background-color: rgba(245, 222, 179, 0);
+}
+.ad_btn4 {
+  margin: 20px 0;
+  width: 130px;
+  height: 35px;
+  font-size: 1.6rem;
+  border: 0;
+  border-bottom: 2px #a99a77 solid;
+  text-align: left;
+  background-color: rgba(85, 85, 85, 0);
+}
+.under_back4 {
+  margin-left: 63%;
+  margin-top: 30px;
+}
+.under_back4 label {
+  font-size: 1.6rem;
+  color: gray;
+}
+.under_back4 input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 290px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 10px;
+}
+.under_back4 input::placeholder {
+  color: black;
+}
+/* Index 4 page finished */
+
+/* Index 7 page started */
+
+.sign7 {
+  display: flex;
+}
+.back7 {
+  background-image: url(/img/Card\ Base2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 30px 60px;
+  width: 50%;
+}
+.under_back7 {
+  width: 50%;
+  margin-top: 50px;
+  /* text-align: center; */
+  margin-top: 130px;
+}
+.under_back7 label {
+  font-size: 1.6rem;
+  color: gray;
+}
+.under_back7 input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 290px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+.under_back7 input::placeholder {
+  color: black;
+}
+.back7_logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.back7_logo p,
+.back7_logo i {
+  font-size: 2rem;
+  color: white;
+}
+.back7_logo i:hover,
+.back7_logo p:hover {
+  transform: scale(1.5);
+  text-shadow: 0px 0px 2px black;
+}
+.log_btn {
+  width: 290px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #2E384D;
+  color: white;
+  margin-top: 20px;
+}
+.under_back7_p {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.801);
+}
+/* Index 7 page finished */
+/* Index 8 page started */
+.back8 {
+  background-image: url(/img/Card\ Base4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 30px 60px;
+  width: 50%;
+}
