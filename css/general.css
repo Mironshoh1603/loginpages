@@ -522,3 +522,13 @@ strong {
 }
 /* Index 7 page finished */
 /* Index 8 page started */
+.back8 {
+  background-image: url(/img/Card\ Base4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 30px 60px;
+  width: 50%;
+}
