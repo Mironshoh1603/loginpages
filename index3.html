@@ -2,57 +2,91 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/query.css" />
+    <link rel="stylesheet" href="css/style3.css" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up 3</title>
-    <link rel="stylesheet" href="css/general.css" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
+    <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <div class="back3">
-        <div class="back3_logo">
-          <p>minetech</p>
-          <i class="fal fa-times-circle"></i>
+      <div class="photo__container">
+        <h1 class="photo_text">minitech</h1>
+        <div class="photo1">
+          <img src="img/personal.png" alt="" />
         </div>
-        <div class="under_back3">
-          <p class="under_back3_p">Sign Up</p>
-          <div class="under_sign">
-            <button class="pi_btn">Personal Info</button>
-            <button class="ad_btn">Account Details</button>
-          </div>
-          <label  for="name">Full Name</label> <br>
-          <input type="text" name="name" id="name" placeholder="Abraham Zack"> <br>
-          <label for="gender">Gender</label> <br>
-          <select name="gender" id="gender">
-            <option value="gender">I am a</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-          </select> <br>
-          <label for="db">Date of Birth</label> <br>
-          <select name="month" id="month">
-            <option value="05">05</option>
-            <option value="06">06</option>
-          </select>
-          <select name="day" id="day">
-            <option value="24">24</option>
-            <option value="25">25</option>
-            <option value="26">26</option>
-          </select>
-          <select name="year" id="year">
-            <option value="2003">2003</option>
-            <option value="2004">2004</option>
-            <option value="2005">2005</option>
-          </select> <br>
-          <label for="hear">How did you hear about us?</label>
-          <input type="text" name="hear" id="hear" placeholder="Google, Referral, TV, or.."> <br>
-          <button class="con_btn">CONTINUE</button>
-          <p class="already">Already have an account? <span>Sign in</span></p>
+      </div>
+      <div class="form_container">
+        <div class="cancel">
+          <a href="index4.html" class="link_cancel"
+            ><img src="img/Group 94.png" alt=""
+          /></a>
+        </div>
+        <div class="form__back">
+          <form action="">
+            <h1 class="sign">Sign up</h1>
+            <div class="info__people">
+              <div class="info">
+                <p>Personal Info</p>
+              </div>
+              <div class="info">
+                <p>Account Details</p>
+              </div>
+            </div>
+            <div class="form_item">
+              <label for="email"> Full Name </label><br />
+              <input
+                type="text"
+                placeholder="Abraham Zack"
+                name="email"
+                id=""
+              />
+            </div>
+            <div class="form_item">
+              <label for="text"> Gender </label><br />
+              <input type="text" placeholder="I am a" name="password" id="" />
+            </div>
+            <div class="form_item">
+              <label for=""> Date of Birth </label><br />
+              <div class="select-date">
+                <select name="day" id="">
+                  <option value="05">25</option>
+                  <option value="05">27</option>
+                  <option value="05">26</option>
+                  <option value="05">28</option>
+                </select>
+                <select name="week" id="">
+                  <option value="05">05</option>
+                  <option value="05">07</option>
+                  <option value="05">06</option>
+                  <option value="05">08</option>
+                </select>
+                <select name="year" id="">
+                  <option value="05">1965</option>
+                  <option value="05">1987</option>
+                  <option value="05">1976</option>
+                  <option value="05">1998</option>
+                </select>
+              </div>
+            </div>
+            <div class="form_item">
+              <label for=""> How Did You About Us? </label><br />
+              <input
+                type="text"
+                name=""
+                placeholder="Google,Referal,TV,or"
+                id=""
+              />
+            </div>
+            <button class="submit">Continue</button>
+            <p class="already">
+              Already Have An Account ? <span>Sign In</span>
+            </p>
+          </form>
         </div>
       </div>
     </div>

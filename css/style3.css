@@ -1,0 +1,17 @@
+.select-date {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.select-date select {
+  width: 32%;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #f4f6fc;
+  border-style: none;
+  border-radius: 0.5rem;
+}
+.form_item input::placeholder {
+  padding-left: 0.5rem;
+  color: black;
+}

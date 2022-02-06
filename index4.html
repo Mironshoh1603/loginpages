@@ -1,43 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign up 4</title>
-  <link rel="stylesheet" href="/css/general.css">
-  <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-</head>
-<body>
-  <div class="container">
-    <div class="back4">
-      <div class="back4_logo">
-        <p>minetech</p>
-        <i class="fal fa-times-circle"></i>
-      </div>
-      <div class="under_back4">
-        <p class="under_back3_p">Sign Up</p>
-        <div class="under_sign">
-          <button class="pi_btn4">Personal Info</button>
-          <button class="ad_btn4">Account Details</button>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/query.css" />
+    <link rel="stylesheet" href="css/style3.css" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="photo__container">
+        <h1 class="photo_text">minitech</h1>
+        <div class="photo1">
+          <img src="img/personal.png" alt="" />
         </div>
-        <label  for="email">Email</label> <br>
-        <input type="email" name="email" id="email" placeholder="Your email"> <br>
-        <label for="password">Create new Password</label> <br>
-        <input type="password" name="password" id="password" placeholder="* * * * *"> <br>
-        <label for="number">Phone number(Optional)</label> <br>
-        <input type="number" name="number" id="number" placeholder="44 | 98809808098"> <br>
-        <label for="card">Credit card info</label>
-        <input type="number" name="card" id="card" placeholder="8600 | 0440 | 3340 | 7777"> <br>
-        <button class="con_btn">SUBMIT</button>
-        <p class="already">Already have an account? <span>Sign in</span></p>
+      </div>
+      <div class="form_container">
+        <div class="cancel">
+          <a href="index5.html" class="link_cancel"
+            ><img src="img/Group 94.png" alt=""
+          /></a>
+        </div>
+        <div class="form__back">
+          <form action="">
+            <h1 class="sign">Sign up</h1>
+            <div class="info__people">
+              <div class="info">
+                <p>Personal Info</p>
+              </div>
+              <div class="info">
+                <p>Account Details</p>
+              </div>
+            </div>
+            <div class="form_item">
+              <label for="email"> Full Name </label><br />
+              <input
+                type="text"
+                placeholder="Abraham Zack"
+                name="email"
+                id=""
+              />
+            </div>
+            <div class="form_item">
+              <label for="text"> Gender </label><br />
+              <input type="text" placeholder="I am a" name="password" id="" />
+            </div>
+            <div class="form_item">
+              <label for=""> Date of Birth </label><br />
+              <div class="select-date">
+                <select name="day" id="">
+                  <option value="05">25</option>
+                  <option value="05">27</option>
+                  <option value="05">26</option>
+                  <option value="05">28</option>
+                </select>
+                <select name="week" id="">
+                  <option value="05">05</option>
+                  <option value="05">07</option>
+                  <option value="05">06</option>
+                  <option value="05">08</option>
+                </select>
+                <select name="year" id="">
+                  <option value="05">1965</option>
+                  <option value="05">1987</option>
+                  <option value="05">1976</option>
+                  <option value="05">1998</option>
+                </select>
+              </div>
+            </div>
+            <div class="form_item">
+              <label for=""> How Did You About Us? </label><br />
+              <input
+                type="text"
+                name=""
+                placeholder="Google,Referal,TV,or"
+                id=""
+              />
+            </div>
+            <button class="submit">Continue</button>
+            <p class="already">
+              Already Have An Account ? <span>Sign In</span>
+            </p>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>

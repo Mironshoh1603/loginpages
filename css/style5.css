@@ -1,0 +1,23 @@
+.photo__container {
+  padding: 0rem;
+}
+.photo1 img {
+  width: 100%;
+}
+.cancel {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  align-items: center;
+}
+.text_medis {
+  font-size: 2rem;
+  font-weight: 450;
+  color: black;
+}
+.form_item input::placeholder {
+  padding-left: 1rem;
+}
+button.submit {
+  background-color: #f57522;
+}
