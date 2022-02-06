@@ -284,3 +284,106 @@ body {
 strong {
   font-weight: 500;
 }
+
+/* Azizullo's part started */
+/* Index page 3 started */
+.back3 {
+  background-image: url(/img/Card\ Base1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 30px 60px;
+}
+.back3_logo {
+  display: flex;
+  justify-content: space-between;
+}
+.back3_logo p,
+.back3_logo i {
+  font-size: 2rem;
+  color: black;
+}
+.back3_logo i:hover, .back3_logo p:hover{
+  transform: scale(1.5);
+  text-shadow:0px 0px 2px black ;
+}
+.under_back3 {
+  margin-left: 63%;
+  margin-top: 30px;
+}
+.under_back3_p {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.801);
+}
+.pi_btn {
+  margin: 20px 0;
+  width: 130px;
+  height: 35px;
+  font-size: 1.6rem;
+  border: 0;
+  border-bottom: 2px #A99A77 solid;
+  text-align: left;
+}
+.ad_btn {
+  border-bottom: 0;
+  margin: 20px 0;
+  width: 130px;
+  height: 35px;
+  font-size: 1.6rem;
+  border: 0;
+  text-align: left;
+}
+.under_back3 label {
+  font-size: 1.6rem;
+  color: gray;
+}
+.under_back3 input{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 290px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 10px;  
+}
+.under_back3 input::placeholder{
+  color: black;
+}
+#gender{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 290px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 10px;  
+}
+.under_back3 select{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 88px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 10px;
+  margin-right: 10px; 
+}
+.con_btn{
+  width: 290px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #A99A77;
+  color: white;
+}
+.already{
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+.already span{
+  color: #A99A77;
+}
+/* Index 3 page finished */
